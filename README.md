@@ -14,8 +14,7 @@ folder.
 * Clone project: git clone [https://github.com/dimitrisgiannak/Django-CRUD.git](https://link-url-here.org)
 * cd PrivateSchool
 * Create virtual environment: virtualenv myenv
-* Windows: myenv\Scripts\activate
-* Unix or MacOS: myenv/bin/activate
+* Windows: myenv\Scripts\activate or Unix or MacOS: myenv/bin/activate
 * pip install django
 * python manage.py runserver
 
