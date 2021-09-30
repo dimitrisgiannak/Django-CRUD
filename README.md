@@ -12,41 +12,12 @@ folder.
 # Download & Setup Instructions
 
 * Clone project: git clone [](https://link-url-here.org)
-* cd 
+* cd PrivateSchool
 * Create virtual environment: virtualenv myenv
 * Windows: myenv\Scripts\activate
 * Unix or MacOS: myenv/bin/activate
 * pip install django
-* pip install djangorestframework
-* pip install django-filter
-* pip install django-cors-headers
-* pip install djangorestframework-simplejwt
-* pip install Pillow
-* cd backend
 * python manage.py runserver
- 
- - You need to activate the venv first which is located on myenv file.
 
- Windows: myenv\Scripts\activate
- 
- Unix or MacOS: myenv/bin/activate
- 
- Activating the virtual environment will change your shell's prompt to show what virtual environment 
-you are using and it will start with (myenv).
 
- - Then you need to go inside the project's folder named PrivateSchool and find the manage.py file.
 
- Once you are there type the next command: python manage.py runserver 
-                                        or python3 manage.py runserver
-                                           (you need to have python 3 or above)
-
- - Finally open your browser at localhost:8000.
-
- In this project we will be using the default database that Django provides(SQLite).
-
- 
- **ADDED : new model for all deleted trainers
-           new view , html , url so we can see a list with all deleted trainers as well
-           two cards in home html informing us how many active trainers and how many deleted
-           trainers there are!
- 
