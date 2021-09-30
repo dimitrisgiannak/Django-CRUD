@@ -9,7 +9,21 @@ update and delete using technologies like Flask or Django.
 Details about the changes inside the Django framework are listed in -Django descr- file inside this 
 folder.
 
+# Download & Setup Instructions
 
+* Clone project: git clone [](https://link-url-here.org)
+* cd 
+* Create virtual environment: virtualenv myenv
+* Windows: myenv\Scripts\activate
+* Unix or MacOS: myenv/bin/activate
+* pip install django
+* pip install djangorestframework
+* pip install django-filter
+* pip install django-cors-headers
+* pip install djangorestframework-simplejwt
+* pip install Pillow
+* cd backend
+* python manage.py runserver
  
  - You need to activate the venv first which is located on myenv file.
 
