@@ -11,7 +11,7 @@ folder.
 
 # Download & Setup Instructions
 
-* Clone project: git clone [https://github.com/dimitrisgiannak/Django-CRUD.git](https://link-url-here.org)
+* Clone project: git clone [https://github.com/dimitrisgiannak/Django-CRUD.git]
 * cd PrivateSchool
 * Create virtual environment: virtualenv myenv
 * Windows: myenv\Scripts\activate or Unix or MacOS: myenv/bin/activate
