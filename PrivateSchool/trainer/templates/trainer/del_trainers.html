@@ -1,0 +1,29 @@
+{% extends 'trainer/base.html' %}
+{% load static %}
+
+{% block title %}All Trainers{% endblock title %}
+
+{% block content %}
+   <table class = 'table' style="width: 850px;">
+      <tr>
+         <th>Trainer ID</th>
+         <th>Trainer First Name</th>
+         <th>Trainer Last Name</th>
+         <th>Trainer Subject</th>
+      </tr>
+        <tbody>
+        {% for trainer in del_list %}
+        <tr>
+            <td>{{trainer.id}}</td>
+            <td>{{trainer.first_name}}</td>
+            <td>{{trainer.last_name}}</td>
+            <td>{{trainer.subject}}</td>
+        </tr>
+        {% endfor %}
+
+        </tbody>
+        
+   </table>
+{% endblock content %}
+
+{% block content2 %}{% endblock %}

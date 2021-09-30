@@ -1,0 +1,16 @@
+{% extends 'trainer/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block title %}Update trainer{% endblock title %}
+
+{% block content %}
+   <form method = 'post' style = "width:400px;">
+      {% csrf_token %}
+      {{form|crispy}}
+
+      <br>
+      <button type = "submit" class = "btn btn-primary">Save</button>
+      <button type = "reset" class = "btn btn-primary">Reset</button>
+   </form>
+{% endblock content %}

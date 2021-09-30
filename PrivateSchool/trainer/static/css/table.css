@@ -1,0 +1,26 @@
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 400px;
+}
+
+.content-table th {
+  font-size: 20px;
+}
+
+.content-table th,
+.content-table td {
+  padding: 8px 12px;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #eee;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: rgb(247, 247, 247);
+}
+
+.content-table tbody tr td button a{
+  color:black;
+}
